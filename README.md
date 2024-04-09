@@ -1,6 +1,6 @@
-# joulu
+# kanding page
 
-Advent calendar with jokes: https://github.com/ainohai/joulu
+Collection page for demos at https://ainohai.github.io
 
 ## Setting up development environment
 
