@@ -15,4 +15,4 @@ export default function App() {
   );
 }
 
-createRoot(document.getElementById('portfolio-container')).render(<App />);
+createRoot(document.getElementById('container-fluid')).render(<App />);

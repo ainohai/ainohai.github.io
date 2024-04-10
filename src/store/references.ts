@@ -4,7 +4,7 @@ import { PortfolioReference, Reference } from '../types/portfolio';
 const ingress: Reference = 
   {
     title: "Trinkets and tidbits",
-    description: "Arts and crafts are my thing. Sometimes I code after work, just because it's fun. For me it's a creative outlet or a modern way to craft something I need. As these are made for leisure not for work, so I do take liberties to keep my time / value ratio good. So, one should expect some missing error handling or duplicate code here and there.",
+    description: "Arts and crafts are my thing. Sometimes I code after work, just because it's fun. For me it's a creative outlet or a modern way to craft something I need. As these are made for leisure not for work, so I do take liberties to keep my time / value ratio good. So, one should expect some missing error handling or duplicate code here and there. I hope you enjoy too viewing these trinkets and tidbits!",
   }
 
 
