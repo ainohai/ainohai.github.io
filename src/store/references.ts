@@ -17,12 +17,6 @@ const portfolio: PortfolioReference = [
     img: "joulu"
   },
   {
-    title: "Sensor service",
-    description: "Kotlin spring boot app taking in sensor data via REST from android application and saving it to database. Next steps will include broadcasting the data for art and analysis purposes and making and api for fetching data from certain time.",
-    codeUrl: "https://github.com/ainohai/SensorService",
-    img: "revontulet"
-  },
-  {
     title: "Matchbox factory",
     description: "We got a task in art school to create match box covers using only horizontal and vertical lines. Match box factory is an automated version of the task and an opportunity to finally try out Svelte.",
     codeUrl: "https://github.com/ainohai/viivatehtava",
@@ -30,11 +24,16 @@ const portfolio: PortfolioReference = [
     img: "tulitikkulaatikko"
   },
   {
-    title: "Masked mess",
-    description: "Christmas cards made by multiple layers of canvas using p5js.",
-    codeUrl: "https://github.com/ainohai/maskedMess",
-    liveUrl: "https://ainohai.github.io/maskedMess/",
-    img: "simplex"
+    title: "Sensor service",
+    description: "Kotlin spring boot app taking in sensor data via REST from android application and saving it to database. Next steps will include broadcasting the data for creating art and analysis purposes and making and api for fetching data from certain time.",
+    codeUrl: "https://github.com/ainohai/SensorService",
+    img: "revontulet"
+  },
+  {
+    title: "Sensor client",
+    description: "Android application collecting data from H10 heart rate monitor and sending it to backend. Data transferring is working, UI is currently heavily work in process.",
+    codeUrl: "https://github.com/ainohai/SensorApp",
+    img: "revontulet"
   },
   {
     title: "Flow matrix creator",
@@ -42,6 +41,13 @@ const portfolio: PortfolioReference = [
     codeUrl: "https://github.com/ainohai/FlowMatrixCreator",
     liveUrl: "https://ainohai.github.io/FlowMatrixCreator/",
     img: "flow"
+  },
+  {
+    title: "Masked mess",
+    description: "Christmas cards made by multiple layers of canvas using p5js.",
+    codeUrl: "https://github.com/ainohai/maskedMess",
+    liveUrl: "https://ainohai.github.io/maskedMess/",
+    img: "simplex"
   },
   {
     title: "Little demos",
