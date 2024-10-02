@@ -4,11 +4,17 @@ import { PortfolioReference, Reference } from '../types/portfolio';
 const ingress: Reference = 
   {
     title: "Trinkets and tidbits",
-    description: "Arts and crafts are my thing. Sometimes I code after work, just because it's fun. For me it's a creative outlet or a modern way to craft something I need. As these are made for leisure not for work, so I do take liberties to keep my time / value ratio good. So, one should expect some missing error handling or duplicate code here and there. I hope you enjoy too viewing these trinkets and tidbits!",
+    description: "Arts and crafts are my thing. Sometimes I code after work, just because it's fun. For me it's a creative outlet or a modern way to craft something I need. As these are made for leisure not for work, so I do take liberties to keep my time / value ratio good. So, one should expect some missing error handling or lazy coding here and there. I hope you enjoy too viewing these trinkets and tidbits!",
   }
 
 
 const portfolio: PortfolioReference = [
+  {
+    title: "Presentations",
+    description: "Presentations held in various occasions.",
+    codeUrl: "https://github.com/ainohai/presentations",
+    img: "presentations"
+  },
   {
     title: "Advent calendar",
     description: "Advent calendar with jokes in Finnish. The advent calendar was a collaboration with collegues. I did ideation, specification and technical implementation. My collegues collected the jokes.",

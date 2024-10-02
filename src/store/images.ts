@@ -11,6 +11,7 @@ import colorful from '../../assets/colorful.png'
 import whiteMess from '../../assets/whiteAndMessVaaka.png'
 import openclosed from '../../assets/openClosed.png'
 import revontulet from '../../assets/revontuletVaaka.png'
+import presentations from '../../assets/presentations.png'
 
 const images: ImageType = {
     joulu: joululanssi,
@@ -23,7 +24,8 @@ const images: ImageType = {
     colorful: colorful,
     white: whiteMess,
     openclosed: openclosed,
-    revontulet: revontulet
+    revontulet: revontulet,
+    presentations: presentations
 };
 
 export const getImageByName = (name?: string) => (!!name && images[name]) ? images[name] : karvat;

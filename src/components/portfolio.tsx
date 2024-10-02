@@ -32,7 +32,7 @@ const ReferenceCard = (props: ReferenceProps) => {
       <img src={getImage(reference.img)} />
       <div className="referenceText">
       <h3> {reference.title}</h3>
-      <a href={reference.codeUrl} target="_blank" rel="noopener noreferrer">Code</a> 
+      <a href={reference.codeUrl} target="_blank" rel="noopener noreferrer">Source</a> 
       { !!reference.liveUrl &&
       <>
        {" / "} <a href={reference.liveUrl} target="_blank" rel="noopener noreferrer">Live</a>
